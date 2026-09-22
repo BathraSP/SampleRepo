@@ -1,13 +1,14 @@
 package superKeyword;
 
-public class SuperConstructorChild { 
+public class SuperConstructorChild extends SuperConstructorParent{ 
 	public SuperConstructorChild() 
 	{ 
-		
+		super(); 
+		System.out.println("Child");
 	}
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		SuperConstructorChild obj = new SuperConstructorChild();
 
 	}
 

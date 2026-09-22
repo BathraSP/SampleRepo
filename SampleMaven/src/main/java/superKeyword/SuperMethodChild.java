@@ -2,7 +2,8 @@ package superKeyword;
 
 public class SuperMethodChild extends SuperMethodParent{ 
 	public void show() 
-	{ 
+	{  
+		super.display();
 		System.out.println("Show");} 
 		
 	
