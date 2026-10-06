@@ -10,7 +10,7 @@ public class Encapsulation1 {
 	}
 public void getter() 
 { 
-	System.out.println("name"); 
+	System.out.println(name); 
 	System.out.println(age);
 }
 }
